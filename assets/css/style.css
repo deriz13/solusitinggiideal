@@ -200,6 +200,7 @@ body {
 
 .header5 {
     position: relative;
+    padding-bottom: 70px;
 }
 
 .header5 .gambarkiri {
@@ -846,20 +847,24 @@ body {
 }
 .floating-footer {
     position: fixed;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
+    bottom: 0;
+    left: 0;
+    width: 100%;
     text-align: center;
     z-index: 1000;
+    padding: 10px 0;
+    padding-bottom: 70px;
 }
 
 .claim-button {
-    background-color: #28a745; /* Warna hijau */
-    color: white;
-    border: none;
-    padding: 15px 30px;
+    width: 90%; 
+    max-width: 600px;
+    padding: 15px;
     font-size: 18px;
-    border-radius: 30px; /* Membuat tombol lebih bulat */
+    border: none;
+    background-color: #28a745;
+    color: white;
+    border-radius: 30px;
     cursor: pointer;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: 0.3s;
@@ -874,14 +879,12 @@ footer {
     text-align: center;
     padding: 20px 0;
     background: white;
-    color: white;
 }
 
 .footer-button {
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
 }
 /*Animasi*/
 
